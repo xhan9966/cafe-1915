@@ -1,0 +1,38 @@
+.main-banner {
+    position: relative;
+    height: 300px;
+}
+
+.main-banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner-mask {
+    position: absolute; /* make .herotext content sit in a separate layer over the image */
+    top: 0; /* make the .herotext cover the entire area of .hero from top */
+    bottom: 0; /* to bottom */
+    left: 0; /* and left */
+    right: 0; /* right, so that the entire image is overlayed */
+    background-color: rgba(0, 0, 0, 0.5); /* add a semi transparent background */
+    color: #FFFFFF; /* change the text colour */
+    font-size: 14px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-mask p {
+    width: 80%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    /* these styles will apply only when the available width is 767px or below */
+    .banner-mask p {
+        width: 100%;
+    }
+}
