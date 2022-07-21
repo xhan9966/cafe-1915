@@ -1,6 +1,11 @@
 "use strict";
 
 $(document).ready(() => {
+  // preload images
+  var image = new Image();
+  image.src = "../images/beverage.png";
+  image.src = "../images/food.png";
+
   $("#menu-icon").click(() => {
     let result = $("#left-menu-container").css("display");
     if (result === "block") {
