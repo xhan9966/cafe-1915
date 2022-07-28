@@ -29,6 +29,13 @@ header nav img {
 header nav a {
     font-size: 20px;
     font-weight: bold;
+    padding: 5px 15px;
+}
+
+.selected {
+    background-color: #640808 !important;
+    color: #FFF;
+    border-radius: 2px;
 }
 
 #left-menu-container {
@@ -38,6 +45,7 @@ header nav a {
 #left-menu-container a {
     font-size: 18px;
     font-weight: bold;
+    padding: 5px 10px;
 }
 
 #menu-icon {
