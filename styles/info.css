@@ -1,0 +1,28 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 20px;
+}
+
+.info {
+    width: 40%;
+}
+
+.map {
+    width: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+    .info-container {
+        flex-direction: column;
+    }
+    
+    .info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .map {
+        width: 100%;
+    }
+}
