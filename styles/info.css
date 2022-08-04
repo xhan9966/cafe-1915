@@ -6,6 +6,8 @@
 
 .info {
     width: 40%;
+    padding: 0 5px;
+    line-height: 30px;
 }
 
 .map {
