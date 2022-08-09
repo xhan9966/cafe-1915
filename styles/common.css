@@ -69,6 +69,7 @@ footer {
     margin: 20px 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 footer hr {
@@ -161,6 +162,11 @@ footer hr {
         background-color: #FFFFFF;
         margin: 20px;
         text-align: left;
+    }
+
+    .footer-container > div {
+        margin-top: 20px;
+        width: 50%;
     }
 }
   
